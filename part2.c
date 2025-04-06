@@ -27,7 +27,6 @@ int minimax(char board[][26], int n, char turn, char player, int depth, bool max
 #include "lab8part2.h"
 #include "liblab8part2.h"
 
-/*
 int main(void) {
   int n;
   char board[26][26];
@@ -129,7 +128,6 @@ int main(void) {
 
   return 0;
 }
-*/
 
 //New Functions
 int makeMove(const char board[][26], int n, char turn, int *row, int *col){
